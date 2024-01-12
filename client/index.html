@@ -55,14 +55,9 @@
                     <i class="fa-solid fa-magnifying-glass fa-flip"></i>
                 </form>
             </div>
-            <ol class="nameList" type="1">
-                <button class="active">Hot Dishes</button>
-                <button class="">Cold Dishes</button>
-                <button class="">Soup</button>
-                <button class="">Grill</button>
-                <button class="">Appetizer</button>
-                <button class="">Dessert</button>
-            </ol>
+            <!-- ======================= JavaScript ============================= -->
+            <div class="content_tab nameList"></div>
+            <!-- ======================= JavaScript end ========================= -->
             <div class="Choose-Dishes">
                 <h4>Choose Dishes</h4>
                 <select name="dineIn" id="dine">
@@ -75,20 +70,51 @@
                     <option value="dessert">Dessert</option>
                 </select>
             </div>
-            <div id="box" class="box">
-                <!-- ======================= JavaScript ========================= -->
-                
-                <!-- ======================= JavaScript ========================= -->
-            </div>
+            <!-- ======================= JavaScript ============================= -->
+            <div id="box" class="box"></div>
+            <!-- ======================= JavaScript end ========================= -->
         </div>
         <!-- Dashboard end >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
 
         <!-- Orders #34562 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
-        <div id="ordersDiv" class="orderProducts"></div>
+        <div id="ordersDiv" class="orderProducts">
+            <h4 class="order-title">Orders #34562</h4>
+            <div class="orderBtns">
+                <button id="dineBtn" class="btns dine">Dine In</button>
+                <button id="" class="btns toGo">To Go</button>
+                <button id="" class="btns delivery">Delivery</button>
+            </div>
+            <ul class="itemUL">
+                <li>Item</li>
+                <ul class="itemUL-ul">
+                    <li>Qty</li>
+                    <li>Price</li>
+                </ul>
+            </ul>
+            <hr>
+            <div class="orderCards">
+                <div class="topCard">
+                    <div class="topCard-img">
+                        <img src="./images/seafood.png" alt="">
+                        <div class="">
+                            <h5>Spicy seasoned sea...</h5>
+                            <p>$ 2.29</p>
+                        </div>
+                    </div>
+                    <div class="btnsOrder">
+                        <button class="minus">-</button>
+                        <button class="count">2</button>
+                        <button class="pilus">+</button>
+                    </div>
+                    <div class="priceOrder">$ 4,58</div>
+                </div>
+                <div class="buttonCard"></div>
+            </div>
+        </div>
         <!-- Orders #34562 end >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
     
     </div>
 
-    <script src="./main.js"></script>
+    <script type="module" src="./main.js"></script>
 </body>
 </html>

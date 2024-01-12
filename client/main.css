@@ -8,19 +8,14 @@ body {
     width: 100%;
     margin: 0 auto;
     color: white;
-    /* background-color: black; */
     font-weight: normal;
+    background-color: #2D303E;
 }
 
 .container {
     width: 100%;
-    /* height: 52.125rem; */
-    height: 45.58rem;
-    /* margin: 1.5rem auto; */
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    /* gap: .5rem; */
     border-radius: 1rem;
     background-color: #252836;
 }
@@ -28,8 +23,7 @@ body {
 /* Headers */
 
 #header {
-    width: 6rem;
-    /* height: 52.125rem; */
+    width: 5.7rem;
     height: 45.58rem;
     display: flex;
     flex-direction: column;
@@ -64,7 +58,7 @@ body {
 #dashboard {
     width: 60.5rem;
     /* height: 52.125rem; */
-    height: 45.58rem;
+    /* height: 45.58rem; */
     padding: 1.5rem;
     border-radius: 1rem;
     /* background-color: rgb(4, 85, 85);  */
@@ -76,6 +70,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: sticky;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #252836;
+    border-bottom: #1F1D2B;
 }
 
 .data h2 {
@@ -154,7 +154,7 @@ body {
 
 }
 
-.nameList .active {
+.nameList #active {
     color: #EA7C69;
     border-bottom: 4px solid #EA7C69;
 }
@@ -173,21 +173,21 @@ body {
     border-radius: .7rem;
 }
 
-#box {
-    width: 100%;
-    display: flex;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: space-between;
+#box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 16px;
 }
 
 #box .cards {
     width: 17rem;
     height: 18rem;
     margin: 5rem 0 0;
-    display: flex;
+    display: grid;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    flex-direction: column;
+    text-align: center;
     border-radius: 1.2rem;
     background-color: #1F1D2B;
 }
@@ -197,24 +197,176 @@ body {
     height: 11.7rem;
     border-radius: 50%;
     margin-top: -5rem;
-    /* margin-bottom: 2rem; */
+    margin-left: 2.2rem;
+    margin-bottom: 2rem;
+}
+
+.cards 
+
+#box .cards:hover {
+    box-shadow: 0 0 15px black;
 }
 
 /* Ddashboard end */
 
 /* OrdersDiv */
 #ordersDiv {
-    width: 25rem;
-    /* height: 52.125rem; */
+    width: 30rem;
+    height: 52.125rem;
     height: 45.58rem;
     display: flex;
-    /* display: none; */
+    margin-right: 0;
     padding: 1.5rem;
     flex-direction: column;
     align-items: flex-start;
-    gap: 2.625rem;
+    gap: 2rem;
     border-radius: 0.5rem;
     background-color:#1F1D2B;
+    position: sticky;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.order-title {
+    font-size: 1.3rem;
+}
+
+.orderBtns {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.btns {
+    display: flex;
+    padding: 0.4rem 0.77rem;
+    align-items: flex;
+    gap: 0.625rem;
+    color: #EA7C69;
+    font-family: Barlow;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    background-color: transparent;
+    border-radius: 0.5rem;
+    border: 1px solid #393C49;
+    background:  #1F1D2B;
+}
+
+.btns:hover {
+    color: blue;
+    background-color: lime;
+}
+
+#dineBtn {
+    color: black;
+    background-color: #EA7C69;
+}
+#toGoBtn {
+    color: black;
+    background-color: #EA7C69;
+}
+#deliveryBtn {
+    color: black;
+    background-color: #EA7C69;
+}
+
+.itemUL, .itemUL-ul {
+    list-style-type: none;
+}
+
+.itemUL {
+    width: 100%;
+    padding: 0 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.itemUL-ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+hr {
+    width: 100%;
+    margin-top: -.5rem;
+    border: 1px solid gray;
+}
+
+.orderCards {
+    display: flex;
+    width: 22.5625rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.625rem;
+}
+
+.topCard {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.topCard .topCard-img img {
+    width: 80px;
+    border-radius: 50%;
+}
+.topCard .topCard-img {
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+}
+
+.topCard .topCard-img h5 {
+    width: 90px;
+    font-size: 1rem;
+    margin-bottom: .5rem;
+}
+.topCard .topCard-img p {
+    color: gray;
+    font-weight: 600;
+}
+
+.btnsOrder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .3rem;
+}
+
+.btnsOrder button {
+    width: 2rem;
+    padding: .3rem;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 800;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    border-radius: 0.5rem;
+    border: 1px solid #393C49;
+    background-color: #2D303E;
+}
+
+.topCard .priceOrder {
+    width: 65px;
+    padding: 2px 4px;
+    font-size: 1.5rem;
+    color: #FFF;
+    text-align: right;
+    font-family: Barlow;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
 }
 
 /* OrdersDiv end */

@@ -45,6 +45,48 @@
                     "text": "17 Bowls available",
                     "title": "Spicy instant noodle with special omelette",
                     "img": "https://raw.githubusercontent.com/xasandj1/khasan-cafe/c5bec5ba9b44e47421f7629dde4a0f3a564aef39/src/assets/img/spesialomolet.svg"
+                },
+                {
+                    "id": "7",
+                    "price": 2.29,
+                    "text": "20 Bowls available",
+                    "title": "Spicy seasoned seafood noodles",
+                    "img": "https://raw.githubusercontent.com/xasandj1/khasan-cafe/c5bec5ba9b44e47421f7629dde4a0f3a564aef39/src/assets/img/seafood.svg"
+                },
+                {
+                    "id": "8",
+                    "price": 2.69,
+                    "text": "11 Bowls available",
+                    "title": "Salted Pasta with mushroom sauce",
+                    "img": "https://raw.githubusercontent.com/xasandj1/khasan-cafe/c5bec5ba9b44e47421f7629dde4a0f3a564aef39/src/assets/img/mashroom.svg"
+                },
+                {
+                    "id": "9",
+                    "price": 2.99,
+                    "text": "16 Bowls available",
+                    "title": "Beef dumpling in hot and sour soup",
+                    "img": "https://raw.githubusercontent.com/xasandj1/khasan-cafe/c5bec5ba9b44e47421f7629dde4a0f3a564aef39/src/assets/img/soursoap.svg"
+                },
+                {
+                    "id": "10",
+                    "price": 3.29,
+                    "text": "22 Bowls available",
+                    "title": "Healthy noodle with spinach leaf",
+                    "img": "https://raw.githubusercontent.com/xasandj1/khasan-cafe/c5bec5ba9b44e47421f7629dde4a0f3a564aef39/src/assets/img/omelet.svg"
+                },
+                {
+                    "id": "11",
+                    "price": 3.49,
+                    "text": "13 Bowls available",
+                    "title": "Hot spicy fried rice with omelet",
+                    "img": "https://raw.githubusercontent.com/xasandj1/khasan-cafe/c5bec5ba9b44e47421f7629dde4a0f3a564aef39/src/assets/img/omelet.svg"
+                },
+                {
+                    "id": "12",
+                    "price": 3.59,
+                    "text": "17 Bowls available",
+                    "title": "Spicy instant noodle with special omelette",
+                    "img": "https://raw.githubusercontent.com/xasandj1/khasan-cafe/c5bec5ba9b44e47421f7629dde4a0f3a564aef39/src/assets/img/spesialomolet.svg"
                 }
             ]
         },
@@ -78,6 +120,87 @@
         {
             "id": "3",
             "category": "Soup",
+            "products": [
+                {
+                    "id": "1",
+                    "price": 2.69,
+                    "text": "11 Bowls available",
+                    "title": "Salted Pasta with mushroom sauce",
+                    "img": "https://raw.githubusercontent.com/xasandj1/khasan-cafe/c5bec5ba9b44e47421f7629dde4a0f3a564aef39/src/assets/img/mashroom.svg"
+                },
+                {
+                    "id": "2",
+                    "price": 2.99,
+                    "text": "16 Bowls available",
+                    "title": "Beef dumpling in hot and sour soup",
+                    "img": "https://raw.githubusercontent.com/xasandj1/khasan-cafe/c5bec5ba9b44e47421f7629dde4a0f3a564aef39/src/assets/img/soursoap.svg"
+                },
+                {
+                    "id": "3",
+                    "price": 2.29,
+                    "text": "20 Bowls available",
+                    "title": "Spicy seasoned seafood noodles",
+                    "img": "https://raw.githubusercontent.com/xasandj1/khasan-cafe/c5bec5ba9b44e47421f7629dde4a0f3a564aef39/src/assets/img/seafood.svg"
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "category": "Grill",
+            "products": [
+                {
+                    "id": "1",
+                    "price": 2.69,
+                    "text": "11 Bowls available",
+                    "title": "Salted Pasta with mushroom sauce",
+                    "img": "https://raw.githubusercontent.com/xasandj1/khasan-cafe/c5bec5ba9b44e47421f7629dde4a0f3a564aef39/src/assets/img/mashroom.svg"
+                },
+                {
+                    "id": "2",
+                    "price": 2.99,
+                    "text": "16 Bowls available",
+                    "title": "Beef dumpling in hot and sour soup",
+                    "img": "https://raw.githubusercontent.com/xasandj1/khasan-cafe/c5bec5ba9b44e47421f7629dde4a0f3a564aef39/src/assets/img/soursoap.svg"
+                },
+                {
+                    "id": "3",
+                    "price": 2.29,
+                    "text": "20 Bowls available",
+                    "title": "Spicy seasoned seafood noodles",
+                    "img": "https://raw.githubusercontent.com/xasandj1/khasan-cafe/c5bec5ba9b44e47421f7629dde4a0f3a564aef39/src/assets/img/seafood.svg"
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "category": "Appetizer",
+            "products": [
+                {
+                    "id": "1",
+                    "price": 2.69,
+                    "text": "11 Bowls available",
+                    "title": "Salted Pasta with mushroom sauce",
+                    "img": "https://raw.githubusercontent.com/xasandj1/khasan-cafe/c5bec5ba9b44e47421f7629dde4a0f3a564aef39/src/assets/img/mashroom.svg"
+                },
+                {
+                    "id": "2",
+                    "price": 2.99,
+                    "text": "16 Bowls available",
+                    "title": "Beef dumpling in hot and sour soup",
+                    "img": "https://raw.githubusercontent.com/xasandj1/khasan-cafe/c5bec5ba9b44e47421f7629dde4a0f3a564aef39/src/assets/img/soursoap.svg"
+                },
+                {
+                    "id": "3",
+                    "price": 2.29,
+                    "text": "20 Bowls available",
+                    "title": "Spicy seasoned seafood noodles",
+                    "img": "https://raw.githubusercontent.com/xasandj1/khasan-cafe/c5bec5ba9b44e47421f7629dde4a0f3a564aef39/src/assets/img/seafood.svg"
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "category": "Dessert",
             "products": [
                 {
                     "id": "1",
